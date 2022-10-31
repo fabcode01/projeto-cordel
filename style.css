@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@font-face {
+    font-family: xilosa;
+    src: url(fontes/xilosa_.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media (min-width: 500px) {
+    header
+{
+    background-color: black;
+    background-image: url(imagens/cordelart.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    
+    background-position: center right;
+    
+
+    height: 150px;
+
+    border-bottom-left-radius: 50px;
+
+}
+
+@media (min-width: 1031px) {
+    header
+{
+    
+    background-color: black;
+    background-image: url(imagens/cordelart.png);
+    background-repeat: no-repeat;
+    background-size: 230px;
+    background-position-x: -18px;
+    
+    background-position: center right;
+    
+
+    height: 150px;
+
+    border-bottom-left-radius: 50px;
+
+}}
+
+
+
+header p{
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+#link{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+#link:hover{
+    
+    text-decoration: underline;
+}
+
+#link::after{
+    color: aliceblue;
+    content: ' \1F517';
+}
+
+header h1{
+    font-family: xilosa;
+    font-size: max(2.0em, 3.5vw);
+    text-align: center;
+    padding-top: 45px;
+    padding-right: 30px;
+    color: aliceblue;
+}
+
