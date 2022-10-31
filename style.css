@@ -65,7 +65,7 @@ header p{
 
 #link::after{
     color: aliceblue;
-    content: ' \1F517';
+    content: '\1F517';
 }
 
 header h1{
@@ -76,4 +76,5 @@ header h1{
     padding-right: 30px;
     color: aliceblue;
 }
+
 
