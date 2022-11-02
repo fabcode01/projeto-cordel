@@ -86,12 +86,6 @@ header h1{
 }}
 
 
-main{
-    
-
-
-}
-
 
 section p{
     
@@ -99,21 +93,23 @@ section p{
     padding-left: 15px;
     font-size: max(1.2em, 2vw);
     margin: 16px;
+    
 }
     
-    
+.imagem1 p{
+    padding-bottom: 22px;
+} 
 
 .imagem1{
-    margin-left: 30px;
-    margin-right: 30px;
+    
     color: aliceblue;
     
     background-image: url(imagens/background001.jpg);
-    background-position: center right;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    border: transparent;
-    border-radius: 10px;
+    
+    
     transition: all 0.5s;
     box-shadow:  inset 5px 5px 16px rgba(0, 0, 0, 0.507);
     
@@ -153,8 +149,7 @@ o::after{
     
     background-size: cover;
     background-attachment: fixed;
-    border: transparent;
-    border-radius: 10px;
+    
     transition: all 0.5s;
     box-shadow:  inset 5px 5px 16px rgba(0, 0, 0, 0.37);
 }
