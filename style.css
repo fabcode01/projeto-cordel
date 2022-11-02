@@ -143,7 +143,7 @@ o::after{
 
 .imagem2{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
-    font-size: max(1.3em, 2.1vw);
+    font-size: max(1.3em, 2.0vw);
     font-family: Lemon Tuesday;
     padding-left: 0px;
     color: rgb(255, 255, 255);
