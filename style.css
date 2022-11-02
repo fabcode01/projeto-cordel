@@ -77,6 +77,41 @@ header h1{
 }}
 
 
+main{
+    padding: 10px;
+
+
+}
+
+
 section p{
+    
+    font-size: max(1.2em, 2vw);
     margin: 16px;
 }
+
+#img1{
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 15px;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+
+}
+
+footer p{
+    
+}
+
+
